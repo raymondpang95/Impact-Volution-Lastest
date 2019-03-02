@@ -1,0 +1,108 @@
+/* Required height of parents of the Full Page Carousel for proper displaying carousel itself */
+html,
+body,
+.view {
+	height: 100%;
+}
+
+/* Full Page Carousel itself*/
+.carousel {
+	height: 100%;
+}
+.carousel .carousel-inner {
+	height: 100%;
+}
+.carousel .carousel-inner .carousel-item,
+.carousel .carousel-inner .active {
+	height: 100%;
+}
+
+/* Navbar animation */
+.navbar {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+.top-nav-collapse {
+	background-color: #1c2331;
+}
+/* Adding color to the Navbar on mobile */
+@media only screen and (max-width: 768px) {
+	.navbar {
+		background-color: #1c2331;
+	}
+}
+
+/* Footer color for sake of consistency with Navbar */
+.page-footer {
+	background-color: #1c2331;
+}
+
+.border-impactColorHover:hover {
+	color: #d50000 !important;
+	border-color: #d50000 !important;
+}
+.border-impactColor {
+	border-color: #d50000 !important;
+}
+.btn-impact:focus {
+	color: white !important;
+	background-color: #d50000 !important;
+}
+.btn-impact {
+	color: #d50000 !important;
+}
+.impactbg {
+	background-color: #d50000 !important;
+}
+.impactbgfocus:focus {
+	color: white;
+	background-color: #d50000 !important;
+}
+.fontcolor-IP {
+	color: #d50000 !important;
+}
+.fontSizeIP {
+	font-size: 90% !important;
+}
+.fontSizeIP-Title {
+	font-size: 100% !important;
+}
+.fontSizeIP-Title-1 {
+	font-size: 120% !important;
+}
+.impactNavColor {
+	background-image: linear-gradient(to right, #b71c1c, red, #e65100) !important;
+}
+.myrow {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	flex-direction: row;
+	flex-flow: wrap;
+}
+.myrow .logosponser {
+	height: 90px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-origin: content-box;
+	background-position: center;
+}
+
+footer {
+	margin-bottom: 0px;
+}
+
+.iCall {
+	display: none;
+	z-index: 1033;
+}
+
+@media (max-width: 767px) {
+	footer {
+		margin-bottom: 3.6rem;
+	}
+
+	.iCall {
+		display: initial;
+	}
+}
